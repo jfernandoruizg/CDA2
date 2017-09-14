@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="utf-8">
+    <title>Mostrar Aviones</title>
+  </head>
+
+  <%= render 'admin-barra'%>
+  <body >
+
+
+    <div class="table-responsive">
+
+      <p id="notice"><%= notice %></p>
+<br>
+      <h1 ALIGN=center>AVIONES</h1>
+      <table >
+        <thead>
+          <tr >
+            <th>MATRICLA</th>
+            <th>NOMBRES DEL PILOTO</th>
+            <th>APELLIDOS DEL PILOTO</th>
+            <th>DESTINO</th>
+            <th>ORIGEN</th>
+            <th>HORA DE SALIDA</th>
+            <th>FECHA DE SALIDA</th>
+            <th>HORA DE LLEGADA</th>
+            <th>FECHE DE LLEGADA</th>
+            <th colspan="3"></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <% @avions.each do |avion| %>
+            <tr>
+              <td><%= avion.matricula %></td>
+              <td><%= avion.npiloto %></td>
+              <td><%= avion.apiloto %></td>
+              <td><%= avion.destino %></td>
+              <td><%= avion.origen %></td>
+              <td><%= avion.hsalidao %></td>
+              <td><%= avion.fsalidao %></td>
+              <td><%= avion.hllegadad %></td>
+              <td><%= avion.fllegadad %></td>
+              <td><%= link_to 'MOSTRAR', avion %></td>
+              <td><%= link_to 'EDITAR', edit_avion_path(avion) %></td>
+              <td><%= link_to 'ELIMINAR', avion, method: :delete, data: { confirm: 'ESTÁ SEGURO?' } %></td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+
+      <br>
+
+      <%= link_to 'NUEVO AVION', new_avion_path %>
+
+    </div>
+  </body>
+</html>

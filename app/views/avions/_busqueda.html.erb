@@ -1,0 +1,9 @@
+<div id="resultadobusqueda">
+
+</div>
+<%= form_tag "avions/index", method: :get , remote: true , id: "search-form" do%>
+<%=text_field_tag :keyword, nil, placeholder: "ingrese el id del avion"%>
+<%=content_tag :button, type: :submit do %>
+Buscar
+<%end%>
+<%end%>

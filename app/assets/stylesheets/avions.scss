@@ -1,0 +1,80 @@
+// Place all the styles related to the avions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+  background-image: url(fondo5.jpg);
+  min-height:100%;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+	font: 14px/1.4 Georgia, Serif;
+}
+#page-wrap {
+	margin: 50px;
+}
+p {
+	margin: 20px 0;
+}
+
+	/*
+	Generic Styling, for Desktops/Laptops
+	*/
+	table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+	/* Zebra striping */
+	tr:nth-of-type(odd) {
+		background: #eee;
+	}
+	th {
+		background: #333;
+		color: white;
+		font-weight: bold;
+	}
+	td, th {
+		padding: 6px;
+		border: 1px solid #ccc;
+		text-align: left;
+	}
+	.div1
+	{  background-image: url(fondo3.jpg);
+		border: 2px solid #CCC;
+	   padding: 1em;
+	   margin: 1em 0 1em 4em;
+	   width: 300px;
+
+ 	 position: absolute;
+ 	 top:  80px;
+ 	 left: 200px;
+	 border-radius: 0px 100px 0px 50px;
+	 -moz-border-radius: 0px 100px 0px 50px;
+	 -webkit-border-radius: 0px 100px 0px 50px;
+	 border: 0px solid #000000;
+	}
+	.div2
+	{
+		background-image: url(fondo3.jpg);
+		border-radius: 100px 0px 50px 0px;
+-moz-border-radius: 100px 0px 50px 0px;
+-webkit-border-radius: 100px 0px 50px 0px;
+border: 0px solid #000000;
+		border: 2px solid #CCC;
+	   padding: 1em;
+	   margin: 1em 0 1em 4em;
+	   width: 300px;
+		position: absolute;
+	  top:  86px;
+	  left: 703px;
+
+	}
+	.div3boton{
+		position: relative;
+		  top: 430px;
+		  left: 590px;
+	}

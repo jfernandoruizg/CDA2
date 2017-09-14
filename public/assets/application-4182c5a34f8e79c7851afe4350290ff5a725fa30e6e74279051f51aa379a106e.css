@@ -1,0 +1,451 @@
+/* line 4, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/avions.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/avions.scss */
+body {
+  background-image: url(fondo5.jpg);
+  min-height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font: 14px/1.4 Georgia, Serif;
+}
+
+/* line 17, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/avions.scss */
+#page-wrap {
+  margin: 50px;
+}
+
+/* line 20, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/avions.scss */
+p {
+  margin: 20px 0;
+}
+
+/*
+Generic Styling, for Desktops/Laptops
+*/
+/* line 27, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/avions.scss */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Zebra striping */
+/* line 32, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/avions.scss */
+tr:nth-of-type(odd) {
+  background: #eee;
+}
+
+/* line 35, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/avions.scss */
+th {
+  background: #333;
+  color: white;
+  font-weight: bold;
+}
+
+/* line 40, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/avions.scss */
+td, th {
+  padding: 6px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+/* line 45, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/avions.scss */
+.div1 {
+  background-image: url(fondo3.jpg);
+  border: 2px solid #CCC;
+  padding: 1em;
+  margin: 1em 0 1em 4em;
+  width: 300px;
+  position: absolute;
+  top: 80px;
+  left: 200px;
+  border-radius: 0px 100px 0px 50px;
+  -moz-border-radius: 0px 100px 0px 50px;
+  -webkit-border-radius: 0px 100px 0px 50px;
+  border: 0px solid #000000;
+}
+
+/* line 60, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/avions.scss */
+.div2 {
+  background-image: url(fondo3.jpg);
+  border-radius: 100px 0px 50px 0px;
+  -moz-border-radius: 100px 0px 50px 0px;
+  -webkit-border-radius: 100px 0px 50px 0px;
+  border: 0px solid #000000;
+  border: 2px solid #CCC;
+  padding: 1em;
+  margin: 1em 0 1em 4em;
+  width: 300px;
+  position: absolute;
+  top: 86px;
+  left: 703px;
+}
+
+/* line 76, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/avions.scss */
+.div3boton {
+  position: relative;
+  top: 430px;
+  left: 590px;
+}
+/* line 4, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.bodyusuario {
+  background-image: url(fondousuario.jpg);
+  min-height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font: 400 15px/1.8 Lato, sans-serif;
+  color: #FFF;
+}
+
+/* line 16, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+h3, h4 {
+  margin: 10px 0 30px 0;
+  letter-spacing: 10px;
+  font-size: 20px;
+  color: #111;
+}
+
+/* line 22, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.container {
+  padding: 80px 120px;
+}
+
+/* line 25, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.person {
+  border: 10px solid transparent;
+  margin-bottom: 25px;
+  width: 80%;
+  height: 80%;
+  opacity: 0.7;
+}
+
+/* line 32, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.person:hover {
+  border-color: #f1f1f1;
+}
+
+/* line 35, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.carousel-inner img {
+  -webkit-filter: grayscale(90%);
+  filter: grayscale(10%);
+  /* make all photos black and white */
+  width: 100%;
+  /* Set width to 100% */
+  margin: auto;
+}
+
+/* line 41, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.carousel-caption h3 {
+  color: #fff !important;
+}
+
+@media (max-width: 600px) {
+  /* line 45, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+  .carousel-caption {
+    display: none;
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+}
+/* line 49, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.bg-1 {
+  background: #2d2d30;
+  color: #bdbdbd;
+}
+
+/* line 53, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.bg-1 h3 {
+  color: #fff;
+}
+
+/* line 54, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.bg-1 p {
+  font-style: italic;
+}
+
+/* line 55, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.list-group-item:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+/* line 59, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.list-group-item:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* line 63, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+}
+
+/* line 68, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.thumbnail p {
+  margin-top: 15px;
+  color: #555;
+}
+
+/* line 72, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #f1f1f1;
+  border-radius: 0;
+  transition: .2s;
+}
+
+/* line 79, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.btn:hover, .btn:focus {
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #000;
+}
+
+/* line 84, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.modal-header, h4, .close {
+  background-color: #333;
+  color: #fff !important;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* line 90, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.modal-header, .modal-body {
+  padding: 40px 50px;
+}
+
+/* line 93, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.nav-tabs li a {
+  color: #777;
+}
+
+/* line 96, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+#googleMap {
+  width: 100%;
+  height: 400px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+/* line 102, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.navbar {
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0;
+  background-color: #2d2d30;
+  border: 0;
+  font-size: 11px !important;
+  letter-spacing: 4px;
+  opacity: 0.7;
+}
+
+/* line 111, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.navbar li a, .navbar .navbar-brand {
+  color: #d5d5d5 !important;
+}
+
+/* line 114, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.navbar-nav li a:hover {
+  color: #fff !important;
+}
+
+/* line 117, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color: #29292c !important;
+}
+
+/* line 121, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+/* line 124, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.open .dropdown-toggle {
+  color: #fff;
+  background-color: #555 !important;
+}
+
+/* line 128, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.dropdown-menu li a {
+  color: #000 !important;
+}
+
+/* line 131, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.dropdown-menu li a:hover {
+  background-color: red !important;
+}
+
+/* line 134, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+footer {
+  background-color: #2d2d30;
+  color: #f5f5f5;
+  padding: 32px;
+}
+
+/* line 139, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+footer a {
+  color: #f5f5f5;
+}
+
+/* line 142, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+footer a:hover {
+  color: #777;
+  text-decoration: none;
+}
+
+/* line 146, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+.form-control {
+  border-radius: 0;
+}
+
+/* line 149, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/home.scss */
+textarea {
+  resize: none;
+}
+/* line 1, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/login.scss */
+.bodyfondologin {
+  background-image: url(avionlogin.png);
+  min-height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 14, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/login.scss */
+.divlogin {
+  position: relative;
+  width: 250px;
+  margin: 50px;
+  background: rgba(130, 130, 130, 0.3);
+  padding: 20px 22px;
+  border: 1px solid;
+  border-top-color: rgba(255, 255, 255, 0.4);
+  border-left-color: rgba(255, 255, 255, 0.4);
+  border-bottom-color: rgba(60, 60, 60, 0.4);
+  border-right-color: rgba(60, 60, 60, 0.4);
+}
+
+/* line 27, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/login.scss */
+.moverimagen {
+  position: relative;
+  top: 8em;
+}
+/* line 1, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 10, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 16, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 22, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 25, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 29, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/scaffolds.scss */
+th {
+  padding-bottom: 5px;
+}
+
+/* line 39, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/scaffolds.scss */
+td {
+  padding: 0 5px 7px;
+}
+
+/* line 44, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 49, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 53, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 59, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 66, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px -7px 0;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 76, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 82, /home/jfernandoruizg/proyectos/CDA1/app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+

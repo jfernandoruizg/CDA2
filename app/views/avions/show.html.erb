@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Matricula:</strong>
+  <%= @avion.matricula %>
+</p>
+
+<p>
+  <strong>Npiloto:</strong>
+  <%= @avion.npiloto %>
+</p>
+
+<p>
+  <strong>Apiloto:</strong>
+  <%= @avion.apiloto %>
+</p>
+
+<p>
+  <strong>Destino:</strong>
+  <%= @avion.destino %>
+</p>
+
+<p>
+  <strong>Origen:</strong>
+  <%= @avion.origen %>
+</p>
+
+<p>
+  <strong>Hsalidao:</strong>
+  <%= @avion.hsalidao %>
+</p>
+
+<p>
+  <strong>Fsalidao:</strong>
+  <%= @avion.fsalidao %>
+</p>
+
+<p>
+  <strong>Hllegadad:</strong>
+  <%= @avion.hllegadad %>
+</p>
+
+<p>
+  <strong>Fllegadad:</strong>
+  <%= @avion.fllegadad %>
+</p>
+
+<%= link_to 'EDITAR', edit_avion_path(@avion) %> |
+<%= link_to 'ATRÁS', avions_path %>

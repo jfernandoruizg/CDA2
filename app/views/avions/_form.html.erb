@@ -1,0 +1,73 @@
+
+<%= form_with(model: avion, local: true) do |form| %>
+  <% if avion.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(avion.errors.count, "error") %> prohibited this avion from being saved:</h2>
+
+      <ul>
+      <% avion.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="div1">
+    <h1 Align="center">DATOS</h1>
+    <div class="field">
+      <%= form.label :matricula %>
+      <%= form.text_field :matricula, id: :avion_matricula %>
+    </div>
+
+    <div class="field">
+      <%= form.label :npiloto %>
+      <%= form.text_field :npiloto, id: :avion_npiloto %>
+    </div>
+
+    <div class="field">
+      <%= form.label :apiloto %>
+      <%= form.text_field :apiloto, id: :avion_apiloto %>
+    </div>
+
+    <div class="field">
+      <%= form.label :destino %>
+      <%= form.text_field :destino, id: :avion_destino %>
+    </div>
+
+    <div class="field">
+      <%= form.label :origen %>
+      <%= form.text_field :origen, id: :avion_origen %>
+    </div>
+
+  </div>
+<div class="div2">
+  <h2 align="center">FECHA Y HORA</h2>
+  <br>
+  <div class="field">
+    <%= form.label :hsalidao %>
+    <%= form.time_select :hsalidao, id: :avion_hsalidao %>
+  </div>
+<br>
+  <div class="field">
+    <%= form.label :fsalidao %>
+    <%= form.date_select :fsalidao, id: :avion_fsalidao %>
+  </div>
+<br>
+  <div class="field">
+    <%= form.label :hllegadad %>
+    <%= form.time_select :hllegadad, id: :avion_hllegadad %>
+  </div>
+
+  <div class="field">
+    <%= form.label :fllegadad %>
+    <%= form.date_select :fllegadad, id: :avion_fllegadad %>
+  </div>
+
+</div>
+<div class="div3boton">
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+</div>
+
+<% end %>
